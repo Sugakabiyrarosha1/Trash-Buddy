@@ -51,6 +51,19 @@ streamlit run app.py
 Dataset: [Waste Classification Dataset](https://www.kaggle.com/datasets/phenomsg/waste-classification/data)
 
 
+#### 📁 Dataset Directory Structure
+
+The **Waste Classification Dataset** used for training and testing is organized into four main categories, each containing labeled subfolders with hundreds of waste images.
+
+| **Category**       | **Subcategories**                        | **Description**                                                                                                                         |
+| ------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hazardous**      | Batteries, Chemical-Waste, Medical-Waste | Contains images of dangerous or toxic waste materials, including used batteries, chemical containers, and medical disposables.          |
+| **Non-Recyclable** | Plastic-Wrappers, Styrofoam, Food-Cups   | Includes materials that cannot be recycled or composted, such as single-use plastic wrappers, styrofoam packaging, and disposable cups. |
+| **Organic**        | Food-Waste, Green-Waste                  | Contains biodegradable waste such as leftover food, fruit peels, and green garden waste like leaves and branches.                       |
+| **Recyclable**     | Paper, Glass, Plastic-Bottles            | Includes recyclable waste materials such as paper, cardboard, glass bottles, and plastic bottles.                                       |
+
+Each subcategory folder contains **hundreds of labeled images**, allowing the model to learn both **broad waste classes** and **fine-grained distinctions** between materials.
+
 ---
 
 ### 💡 Future Improvements
