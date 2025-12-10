@@ -1,0 +1,29 @@
+{
+  "test_loss": 1.325374388989682,
+  "test_accuracy": 75.84928968499074,
+  "test_f1_weighted": 0.7387317077103396,
+  "test_f1_macro": 0.6956213509467174,
+  "per_class_f1": {
+    "batteries": 0.6521739130434783,
+    "cans_all_type": 0.8606060606060606,
+    "ceramic_product": 0.5660377358490566,
+    "coffee_tea_bags": 0.7766990291262136,
+    "diapers": 0.7272727272727273,
+    "e-waste": 0.9077380952380952,
+    "egg_shells": 0.8275862068965517,
+    "food_scraps": 0.7533632286995515,
+    "glass_containers": 0.7692307692307693,
+    "kitchen_waste": 0.12307692307692308,
+    "paints": 0.6333333333333333,
+    "paper_products": 0.7547169811320755,
+    "pesticides": 0.723404255319149,
+    "plastic_bottles": 0.7833333333333333,
+    "platics_bags_wrappers": 0.5660377358490566,
+    "sanitary_napkin": 0.5238095238095238,
+    "stroform_product": 0.7796610169491526,
+    "yard_trimmings": 0.7931034482758621
+  },
+  "best_val_acc": 74.90613266583229,
+  "best_val_loss": 1.3137236672779544,
+  "total_epochs": 37
+}
